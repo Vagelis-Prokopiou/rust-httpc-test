@@ -41,7 +41,6 @@ pub fn new_client(base_url: impl Into<BaseUrl>) -> Result<Client> {
 ///        .https_only(true);
 ///    let hc = httpc_test::new_client_with_reqwest("https://localhost:8080", client_builder)
 ///        .expect("httpc_test::new_client_with_reqwest() failed");
-///
 /// ```
 pub fn new_client_with_reqwest(
 	base_url: impl Into<BaseUrl>,
